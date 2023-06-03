@@ -1,0 +1,28 @@
+section {
+    width: 95%;
+    padding: 60px;
+        margin: auto;
+        margin-top: 30px;
+}
+
+section+section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 100%;
+        padding: 0 10px;
+        margin: auto;
+    }
+
+    section+section {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+
+}
